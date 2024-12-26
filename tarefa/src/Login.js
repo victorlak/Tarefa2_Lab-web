@@ -67,6 +67,7 @@ function Login() {
               Swal.fire({
                 icon: "error",
                 title: "Senhas incompativeis ou dados incompletos",
+                text: "O email deve conter '@'"
               });
 
               
@@ -89,7 +90,7 @@ function Login() {
               Swal.fire({
                 icon: "error",
                 title: "Preencha os campos",
-                text: "O email deve conter @!"
+                text: "O email deve conter '@'"
               })
             }}>Entrar</Button>
             <Button className='mt-2 ml-5' color='primary' onClick={atualizaCadastrando}>Realizar cadastrar</Button>
