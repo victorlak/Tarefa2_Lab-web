@@ -85,7 +85,9 @@ function Login() {
             <Button className='mt-2' color='primary' onClick={()=>{
               validaLogin() ? Swal.fire({
                 icon: "success",
-                title: "Login Efetuado",
+                title: "Login Efetuado!",
+
+
               }) :
               Swal.fire({
                 icon: "error",
